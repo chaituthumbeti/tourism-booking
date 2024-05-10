@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    box-sizing: border-box;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    height: 100vh;
+    background-color: #eee;
+    width:100%;
+}
+
+.logo {
+    display: flex;
+    justify-content: left;
+    align-items: start;
+    position: relative;
+    bottom: 800px;
+}
+
+.logo-img {
+    width: 200px;
+    padding: 0;
+    margin: 0px;
+}
+
+.lists
+{
+    display: flex;
+    position: relative;
+    bottom: 920px;
+    left: 1100px;
+    
+}
+
+.ul-list-one {
+    display: flex;
+    flex-direction: row;
+}
+
+.list-one {
+    list-style: none;
+    padding: 20px;
+    font-size: larger;
+}
+
+a.link-one
+{
+    color: white;
+}
+
+a:hover
+{
+    color:black;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+
+.back-img
+{
+    z-index: -100;
+    height: 100vh;
+    width: 100%;
+}
+
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.center-button {
+    padding: 10px,20px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.popup {
+    position: absolute;
+    top: 380px;
+    left: 780px;
+    /* opacity: 0.9; */
+    transform: translate(-50%,-50%) scale(1.25);
+    width: 330px;
+    height: 380px;
+    padding: 20px,30px;
+    background-color: #aebacc;
+    box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    transition: top 0ms ease-in-out 200ms,
+    opacity 200ms ease-in-out 0ms,
+    transform 20ms ease-in-out 0ms;
+}
+
+
+.log-head {
+    text-align: center;
+    color: #222;
+    margin: 10px 0px 20px ;
+    font-size: 25px;
+
+}
+
+
+.email-form-element,
+.name-form-element,
+.pass-form-element 
+{
+    margin: 15px 0px ;
+    padding: 5px;
+}
+
+.popup .form .form-element label {
+    font-size: 14px;
+    color: #222;
+}
+
+
+#username,#password
+{
+    margin-top: 5px;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    width: 80%;
+    border: 1px solid #c5b6b6;
+}
+
+.button 
+{
+    width: 30%;
+    height: 40px;
+    background: #222;
+    color: #eee;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    cursor: pointer;
+    position: relative;
+    left: 80px;
+    box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.05);
+
+}
+
+input:hover {
+    box-shadow: 2px 2px 5px 5px rgba(1, 1, 1, 0.10);
+}
+
+.button:hover{
+    background-color:rgba(52, 33, 136, 0.75);
+    box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.15);
+
+}
+
+.forgot
+{
+    display: block;
+    font-size: 15px;
+    color: #1a79ca;
+    font-weight: 600;
+    text-decoration: navajowhite;
+    position: relative;
+    top: 30px;
+    left: 10px;
+    color: black;
+}
+
+.forgot-link
+{
+    text-decoration: none;
+    color: black;
+}
+
+.forgot-link:hover{
+    color: blue;
+}
+
+.name-label
+{
+    font-weight: 800;
+}
+
+.pass-label
+{
+    font-weight: 800;
+}
+
+.elements
+{
+    position: relative;
+    left: 30px;
+}
+
+
+
+.heading-div
+{
+    z-index: 30000;
+    position: relative;
+    bottom: 700px;
+    left: 700px;
+}
+
+.heading-div
+{
+    z-index: 200;
+    color: white;
+    position: relative;
+}
+
+.new{
+    position: relative;
+    left:10px;
+    top: 40px;
+}
+.new .new-link
+{
+    font-weight: 800;
+    font-size:smaller;
+    color: black;
+}
+
+.new-link:hover{
+    color: blue;
+}

@@ -1,0 +1,538 @@
+body,
+html {
+    box-sizing: border-box;
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.heading-title{
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 6rem;
+    text-transform: uppercase;
+    color: #222;
+}
+
+.navbar-pack{
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background-color:rgb(167, 140, 140);
+    display: flex;
+    padding-top: .7rem;
+    padding-bottom: 2rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.navbar-pack .main-logo{
+    font-size: 2.5rem;
+    color: #222;
+}
+
+.navbar-pack .welcome{
+    display:inline;
+    margin-right: 2rem;
+}
+
+.navbar-pack .navbar a{
+    font-size: 1.3rem;
+    margin-right: 0.7rem;
+    margin-left:0.7px;
+    color: #222;
+}
+
+.navbar-pack .navbar a:hover{
+    color: #8e44ad;
+}
+
+#menu-btn{
+    font-size: 2.5rem;
+    cursor: pointer;
+    color: #222;
+    display: none;
+}
+
+
+.start-div {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    height: 100vh;
+}
+
+.banner {
+    position: absolute;
+    height: 100vh;
+    width: 1550px;
+    z-index: -100;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.heading {
+    display: flex;
+    position: relative;
+    bottom: 265px;
+    justify-content: center;
+    color: white;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    justify-content: left;
+    align-items: start;
+    position: relative;
+    bottom: 415px;
+}
+
+.logo img {
+    height: 100px;
+    width: 100px;
+    padding: 0;
+    margin: 0px;
+}
+
+a {
+    color: rgb(68, 17, 17);
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.lists {
+    display: flex;
+    position: relative;
+    bottom: 560px;
+    left: 990px;
+    font-size: large;
+}
+
+.ul-list-one {
+    display: flex;
+    flex-direction: row;
+}
+
+.list-one {
+    list-style: none;
+    padding: 20px;
+}
+
+.menu {
+    width: 35px;
+    height: 30px;
+    margin: 30px 0px 20px 20px;
+    cursor: pointer;
+    z-index: 20;
+}
+
+
+.bar {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    bottom: 645px;
+    left: 1450px;
+    height: 2px;
+    width: 30px;
+
+    transition: 0.3s ease;
+    z-index: 30;
+    border-radius: 5px;
+    padding: 1px;
+    margin: 3px;
+}
+
+.packages {
+    height: 100vh;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height:100%;
+    width:23%;
+    float:left;
+    margin-left:20px;
+    margin-bottom: 30px;
+    box-shadow:0 4px 8px 0 rgba(0,0,0,0.2),;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    /* height: 500px; */
+    height: 60vh;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.35),0 6px 20px 0 rgba(0,0,0,0.19);
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+
+    padding: 20px;
+}
+
+h3 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: black;
+
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+}
+
+h2 {
+    color: rgb(0, 0, 0);
+}
+
+
+p {
+    margin: 10px 0;
+    color: #555;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('your-background-image.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: rgba(2, 41, 233, 0.5);
+}
+
+.logo img {
+    height: 100px;
+    width: 100px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.pack {
+    padding: 1rem;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2rem;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #ffd700;
+    /* Change the color on hover as desired */
+}
+
+.book-button {
+    color: red;
+}
+
+.divider:after,
+.divider:before {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #eee;
+}
+
+.h-custom {
+    height: calc(100% - 73px);
+}
+
+@media (max-width: 450px) {
+    .h-custom {
+        height: 100%;
+    }
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2rem;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #ffd700;
+    /* Change the color on hover as desired */
+}
+
+.section {
+    position: relative;
+    height: 100vh;
+}
+
+.section .section-center {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    -webkit-transform: translateY(-20%);
+    transform: translateY(-20%);
+}
+
+#booking {
+    font-family: 'Montserrat', sans-serif;
+    background-image: url('./photos/bg.png');
+    background-size: cover;
+    background-position: center;
+}
+
+#booking::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background: rgba(147, 166, 190, 0.6);
+}
+
+.booking-form {
+    background-color: #fff;
+    padding: 50px 20px;
+    -webkit-box-shadow: 0px 5px 20px -5px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 5px 20px -5px rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+}
+
+.booking-form .form-group {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.booking-form .form-control {
+    background-color: #ebecee;
+    border-radius: 4px;
+    border: none;
+    height: 40px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: #3e485c;
+    font-size: 14px;
+}
+
+.booking-form .form-control::-webkit-input-placeholder {
+    color: rgba(62, 72, 92, 0.3);
+}
+
+.booking-form .form-control:-ms-input-placeholder {
+    color: rgba(62, 72, 92, 0.3);
+}
+
+.booking-form .form-control::placeholder {
+    color: rgba(62, 72, 92, 0.3);
+}
+
+.booking-form input[type="date"].form-control:invalid {
+    color: rgba(62, 72, 92, 0.3);
+}
+
+.booking-form select.form-control {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.booking-form select.form-control+.select-arrow {
+    position: absolute;
+    right: 0px;
+    bottom: 4px;
+    width: 32px;
+    line-height: 32px;
+    height: 32px;
+    text-align: center;
+    pointer-events: none;
+    color: rgba(62, 72, 92, 0.3);
+    font-size: 14px;
+}
+
+.booking-form select.form-control+.select-arrow:after {
+    content: '\279C';
+    display: block;
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.booking-form .form-label {
+    display: inline-block;
+    color: #3e485c;
+    font-weight: 700;
+    margin-bottom: 6px;
+    margin-left: 7px;
+}
+
+.booking-form .submit-btn {
+    display: inline-block;
+    color: #fff;
+    background-color: #1e62d8;
+    font-weight: 700;
+    padding: 14px 30px;
+    border-radius: 4px;
+    border: none;
+    -webkit-transition: 0.2s all;
+    transition: 0.2s all;
+}
+
+.booking-form .submit-btn:hover,
+.booking-form .submit-btn:focus {
+    opacity: 0.9;
+}
+
+.booking-cta {
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+.booking-cta h1 {
+    font-size: 52px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+}
+
+.booking-cta p {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+/* Your CSS styles here */
+.section {
+    position: relative;
+    height: 100vh;
+}
+
+.section .section-center {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+/* Rest of your CSS styles here */
